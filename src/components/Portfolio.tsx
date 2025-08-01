@@ -1,4 +1,4 @@
-import { Play, ExternalLink, Award } from "lucide-react";
+import { Play, ExternalLink } from "lucide-react";
 import { Button } from "./ui/button";
 import portfolio1 from "../assets/placeholder.jpg";
 // import portfolio2 from "@/assets/portfolio-2.jpg";

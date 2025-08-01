@@ -43,10 +43,10 @@ const About = () => {
           </h2>
 
           <p className="text-lg md:text-xl lg:text-2xl text-white/80 mb-16 max-w-3xl mx-auto leading-relaxed">
-            At FrameCraft Studios, we don't just edit videos – we sculpt
-            experiences. With over 5 years of industry expertise and a passion
-            for storytelling, we transform raw footage into compelling
-            narratives that captivate audiences.
+            At Jay RE, we don't just edit videos – we sculpt experiences. With
+            over 5 years of industry expertise and a passion for storytelling,
+            we transform raw footage into compelling narratives that captivate
+            audiences.
           </p>
 
           {/* Features Grid */}

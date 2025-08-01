@@ -39,7 +39,7 @@ const Navigation = () => {
             <img
               src={logoWhite}
               alt="Jay RE Logo"
-              className="h-26 md:h-26 object-contain"
+              className="h-20 md:h-26 object-contain"
             />
           </div>
 

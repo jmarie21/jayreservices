@@ -11,13 +11,13 @@ const Contact = () => {
     {
       icon: Facebook,
       label: "Facebook",
-      value: "+63 912 345 6789",
+      value: "Jay RE",
       link: "https://www.facebook.com/jayreservices/",
     },
     {
       icon: Instagram,
       label: "Instagram",
-      value: "Cebu City, Philippines",
+      value: "Jay RE",
       link: "https://www.instagram.com/jayrealestate98/",
     },
   ];

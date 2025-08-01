@@ -32,11 +32,6 @@ const Hero = () => {
               <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
               View Our Work
             </Button>
-
-            <Button className="min-w-[200px] group bg-gray-900 text-white border-2 border-white hover:bg-white hover:text-black transition-all">
-              Get Started
-              <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-            </Button>
           </div>
 
           {/* Stats */}

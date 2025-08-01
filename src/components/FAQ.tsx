@@ -14,7 +14,7 @@ const faqs = [
   {
     question: "How long is the turn around time for each videos?",
     answer:
-      "We make sure that we will send the videos prior to revisions within 12 – 24 hours.",
+      "We typically deliver the initial video (prior to revisions) within 24 hours. However, due to the current busy season, please allow 12 to 48 hours for delivery — though in most cases, we still manage to send it within 24 hours.",
   },
   {
     question: "How much do you charge for revision?",

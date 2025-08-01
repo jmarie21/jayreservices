@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Facebook, Instagram, Mail } from "lucide-react";
 
 const Contact = () => {
   const contactDetails = [
@@ -6,16 +6,19 @@ const Contact = () => {
       icon: Mail,
       label: "Email",
       value: "jayrealestate98@gmail.com",
+      link: "mailto:jayrealestate98@gmail.com",
     },
     {
-      icon: Phone,
-      label: "Phone",
+      icon: Facebook,
+      label: "Facebook",
       value: "+63 912 345 6789",
+      link: "https://www.facebook.com/jayreservices/",
     },
     {
-      icon: MapPin,
-      label: "Location",
+      icon: Instagram,
+      label: "Instagram",
       value: "Cebu City, Philippines",
+      link: "https://www.instagram.com/jayrealestate98/",
     },
   ];
 
@@ -48,7 +51,9 @@ const Contact = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="mb-4 p-3 rounded-lg w-fit mx-auto bg-green-400/10">
-                  <item.icon className="w-6 h-6 text-green-300" />
+                  <a href={item.link} target="_blank" rel="noopener noreferrer">
+                    <item.icon className="w-6 h-6 text-green-300" />
+                  </a>
                 </div>
                 <h3 className="font-semibold text-lg mb-1">{item.label}</h3>
                 <p className="text-sm text-white/70 leading-relaxed">

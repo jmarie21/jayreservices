@@ -36,11 +36,13 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <img
-              src={logoWhite}
-              alt="Jay RE Logo"
-              className="h-20 md:h-26 object-contain"
-            />
+            <a href="#home">
+              <img
+                src={logoWhite}
+                alt="Jay RE Logo"
+                className="h-20 md:h-26 object-contain"
+              />
+            </a>
           </div>
 
           {/* Desktop Navigation */}

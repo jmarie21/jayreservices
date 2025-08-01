@@ -1,20 +1,18 @@
-import {
-  Instagram,
-  Twitter,
-  Linkedin,
-  Youtube,
-  Mail,
-  Phone,
-  MapPin,
-} from "lucide-react";
+import { Instagram, Mail, Phone, MapPin, Facebook } from "lucide-react";
 import logoWhite from "../assets/jayre.png";
 
 const Footer = () => {
   const socialLinks = [
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Youtube, href: "#", label: "YouTube" },
+    {
+      icon: Instagram,
+      href: "https://www.instagram.com/jayrealestate98/",
+      label: "Instagram",
+    },
+    {
+      icon: Facebook,
+      href: "https://www.facebook.com/jayreservices/",
+      label: "Facebook",
+    },
   ];
 
   const quickLinks = [
@@ -64,6 +62,8 @@ const Footer = () => {
                     key={index}
                     href={social.href}
                     aria-label={social.label}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-10 h-10 rounded-lg bg-card border border-border hover:border-primary/30 flex items-center justify-center transition-all duration-300 hover:shadow-glow/20"
                   >
                     <social.icon className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
@@ -116,12 +116,12 @@ const Footer = () => {
                   <span>jayrealestate98@gmail.com</span>
                 </div>
                 <div className="flex items-center text-muted-foreground">
-                  <Phone className="w-5 h-5 mr-3 text-primary" />
-                  <span>09123456789</span>
+                  <Facebook className="w-5 h-5 mr-3 text-primary" />
+                  <span>facebook.com/jayreservices/</span>
                 </div>
                 <div className="flex items-center text-muted-foreground">
-                  <MapPin className="w-5 h-5 mr-3 text-primary" />
-                  <span>Cebu City, Philippines</span>
+                  <Instagram className="w-5 h-5 mr-3 text-primary" />
+                  <span>instagram.com/jayrealestate98/</span>
                 </div>
               </div>
             </div>

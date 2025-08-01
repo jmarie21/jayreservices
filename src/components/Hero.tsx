@@ -1,14 +1,22 @@
 import { Button } from "./ui/button";
 import { Play } from "lucide-react";
+import heroBg from "../assets/bgimage4.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gray-900 text-white font-inter overflow-hidden">
-      {/* Background Blobs */}
-      <div className="absolute inset-0 z-0">
-        <div className="absolute -top-40 -left-40 w-[600px] h-[600px] bg-green-400 blur-3xl opacity-20 rounded-full" />
-        <div className="absolute -bottom-40 -right-40 w-[600px] h-[600px] bg-blue-500 blur-3xl opacity-20 rounded-full" />
-      </div>
+    <section
+      className="relative min-h-screen flex items-center justify-center bg-gray-900 text-white font-inter overflow-hidden"
+      id="home"
+      style={{
+        backgroundImage: `url(${heroBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      {/* Dark Overlay */}
+      {/* <div className="absolute inset-0 bg-black/75 z-0" /> */}
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 z-0 bg-gradient-to-br from-black/70 via-black/80 to-blue-900/40" />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">

@@ -1,5 +1,4 @@
 import {
-  Play,
   Instagram,
   Twitter,
   Linkedin,

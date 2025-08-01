@@ -58,9 +58,11 @@ const Navigation = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <Button className="group bg-gradient-to-r from-blue-800 via-blue-600 to-green-400 text-white hover:brightness-110 transition-all">
-              Get Quote
-            </Button>
+            <a href="mailto:jayrealestate98@gmail.com">
+              <Button className="group bg-gradient-to-r from-blue-800 via-blue-600 to-green-400 text-white hover:brightness-110 transition-all">
+                Get Quote
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -91,10 +93,12 @@ const Navigation = () => {
                 </a>
               ))}
               <div className="px-4 pt-2">
-                <Button className="min-w-[200px] group bg-gradient-to-r from-blue-800 via-blue-600 to-green-400 text-white hover:brightness-110 transition-all">
-                  <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
-                  Get Quote
-                </Button>
+                <a href="mailto:jayrealestate98@gmail.com">
+                  <Button className="min-w-[200px] group bg-gradient-to-r from-blue-800 via-blue-600 to-green-400 text-white hover:brightness-110 transition-all">
+                    <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
+                    Get Quote
+                  </Button>
+                </a>
               </div>
             </div>
           </div>

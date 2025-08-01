@@ -28,23 +28,25 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <Button className="min-w-[200px] group bg-gradient-to-r from-blue-800 via-blue-600 to-green-400 text-white hover:brightness-110 transition-all">
-              <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
-              View Our Work
-            </Button>
+            <a href="#services">
+              <Button className="min-w-[200px] group bg-gradient-to-r from-blue-800 via-blue-600 to-green-400 text-white hover:brightness-110 transition-all">
+                <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
+                View Our Work
+              </Button>
+            </a>
           </div>
 
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto text-white/90">
             <div className="text-center">
               <div className="font-bold text-2xl md:text-3xl text-green-300 mb-1">
-                500+
+                5000+
               </div>
               <div className="text-sm">Projects Completed</div>
             </div>
             <div className="text-center">
               <div className="font-bold text-2xl md:text-3xl text-cyan-300 mb-1">
-                50+
+                200+
               </div>
               <div className="text-sm">Happy Clients</div>
             </div>

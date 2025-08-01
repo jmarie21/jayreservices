@@ -4,43 +4,35 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Sarah Johnson",
-      role: "Marketing Director",
-      company: "TechVision Inc.",
+      name: "Anonymous",
       content:
         "Jay RE has completely transformed my business and has helped me reach levels of quality I could have never imagined.",
       rating: 5,
-      avatar: "SJ",
+      avatar: "AN",
     },
     {
       id: 2,
-      name: "Michael Chen",
-      role: "Content Creator",
-      company: "Digital Storyteller",
+      name: "Anonymous",
       content:
         "Jay RE has been a game-changer for my business. Their expertise and dedication have elevated my operations to new heights, delivering results far beyond my expectations.",
       rating: 5,
-      avatar: "MC",
+      avatar: "AN",
     },
     {
       id: 3,
-      name: "Emily Rodriguez",
-      role: "Brand Manager",
-      company: "Creative Agency Co.",
+      name: "Anonymous",
       content:
         "Working with Jay RE has been an incredible experience. Their innovative approach and unwavering commitment to excellence have brought unparalleled growth and quality to my business.",
       rating: 5,
-      avatar: "ER",
+      avatar: "AN",
     },
     {
       id: 4,
-      name: "David Thompson",
-      role: "Film Producer",
-      company: "Independent Films",
+      name: "Anonymous",
       content:
         "Professional, creative, and incredibly efficient. Jay RE delivered our documentary edit ahead of schedule without compromising quality. They understand storytelling at its core.",
       rating: 5,
-      avatar: "DT",
+      avatar: "AN",
     },
   ];
 
@@ -99,9 +91,6 @@ const Testimonials = () => {
                   <div>
                     <div className="font-inter font-semibold text-foreground">
                       {testimonial.name}
-                    </div>
-                    <div className="text-sm text-muted-foreground">
-                      {testimonial.role}, {testimonial.company}
                     </div>
                   </div>
                 </div>

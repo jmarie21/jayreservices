@@ -20,7 +20,6 @@ const CharityCarousel = () => {
         email: "jayrealestate98@gmail.com",
       },
     },
-    // Add more events here
   ];
 
   return (
@@ -54,7 +53,6 @@ const CharityCarousel = () => {
         <Carousel className="w-full relative overflow-hidden">
           <CarouselContent className="px-0 sm:px-4">
             {" "}
-            {/* optional padding for non-mobile */}
             {charityEvents.map((event, index) => (
               <CarouselItem key={index} className="p-4">
                 <div className="flex flex-col md:flex-row gap-6 items-center">
@@ -85,8 +83,6 @@ const CharityCarousel = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-
-          {/* Position buttons absolutely so they don’t interfere with layout */}
           <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10" />
           <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10" />
         </Carousel>

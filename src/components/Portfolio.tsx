@@ -1,9 +1,6 @@
 import { Play, ExternalLink } from "lucide-react";
 import { Button } from "./ui/button";
 import portfolio1 from "../assets/placeholder.jpg";
-// import portfolio2 from "@/assets/portfolio-2.jpg";
-// import portfolio3 from "@/assets/portfolio-3.jpg";
-// import portfolio4 from "@/assets/portfolio-4.jpg";
 
 const Portfolio = () => {
   const projects = [
@@ -14,7 +11,6 @@ const Portfolio = () => {
       image: portfolio1,
       description:
         "Dynamic brand video with motion graphics and fast-paced editing",
-      // awards: "Gold Award - Creative Excellence",
     },
     {
       id: 2,
@@ -22,7 +18,6 @@ const Portfolio = () => {
       category: "Corporate",
       image: portfolio1,
       description: "Professional corporate story with cinematic color grading",
-      // awards: "Best Corporate Video 2024",
     },
     {
       id: 3,
@@ -31,7 +26,6 @@ const Portfolio = () => {
       image: portfolio1,
       description:
         "Creative music video with artistic effects and dynamic transitions",
-      // awards: "Viewers Choice Award",
     },
     {
       id: 4,
@@ -40,7 +34,6 @@ const Portfolio = () => {
       image: portfolio1,
       description:
         "Authentic documentary editing with natural storytelling flow",
-      // awards: "Festival Selection",
     },
   ];
 
@@ -109,12 +102,6 @@ const Portfolio = () => {
                   <p className="text-muted-foreground mb-4 leading-relaxed">
                     {project.description}
                   </p>
-
-                  {/* Award */}
-                  {/* <div className="flex items-center text-accent text-sm mb-4">
-                    <Award className="w-4 h-4 mr-2" />
-                    {project.awards}
-                  </div> */}
 
                   {/* Action Button */}
                   <Button

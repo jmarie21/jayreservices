@@ -37,6 +37,7 @@ const services = [
       "With Motion Blur every speed ramps",
       "With some 3D Text if requested",
       "With sound effects",
+      "With Earth zoom transition if requested",
     ],
     orderLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfwG18Werh9b1ghRDiLwI7v6-xdmtnEpg49XhHBNLdRt0im1A/viewform",
@@ -56,6 +57,7 @@ const services = [
       "With a smooth zoom-in effect on detailed shot clips.",
       "With few 3D Text if requested",
       "With sound effects",
+      "With Earth zoom transition if requested",
     ],
     orderLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSf_vA75Jv4IujD7LYHjhH60VHAimCUewfGthfYU6tcGjKVSqw/viewform",

@@ -1,5 +1,3 @@
-import { Badge } from "./ui/badge";
-
 const transitions = [
   {
     title: "DAY TO NIGHT",
@@ -29,7 +27,6 @@ const transitions = [
   {
     title: "EARTH ZOOM",
     url: "https://www.youtube.com/embed/dyuRMbjDJas",
-    note: "+$5 if requested",
     id: "dyuRMbjDJas",
   },
 ];
@@ -47,13 +44,13 @@ const Transitions = () => {
             Transitions
           </span>
         </h2>
-        <p className="text-muted-foreground max-w-xl mx-auto mb-12">
+        <p className="text-muted-foreground text-lg md:text-xl max-w-xl mx-auto mb-12">
           Elevate your videos with cinematic transitions — from dramatic
           lighting changes to dynamic zooms.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {transitions.map(({ title, url, note, id }) => (
+          {transitions.map(({ title, url, id }) => (
             <div key={title} className="space-y-3">
               <div className="aspect-video rounded-xl overflow-hidden shadow-lg">
                 <iframe
@@ -66,7 +63,6 @@ const Transitions = () => {
               </div>
               <div className="text-lg font-semibold flex items-center justify-center gap-2">
                 {title}
-                {note && <Badge variant="outline">{note}</Badge>}
               </div>
             </div>
           ))}

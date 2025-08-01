@@ -22,6 +22,7 @@ const Navigation = () => {
     { name: "Transitions", href: "#transitions" },
     { name: "Testimonials", href: "#testimonials" },
     { name: "FAQ", href: "#faq" },
+    { name: "Charity", href: "#charity" },
     { name: "Contact", href: "#contact" },
   ];
 

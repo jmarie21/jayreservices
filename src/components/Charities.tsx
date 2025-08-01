@@ -24,17 +24,37 @@ const CharityCarousel = () => {
   ];
 
   return (
-    <section className="py-16 bg-stone-950 text-foreground">
+    <section id="charity" className="py-16 bg-stone-950 text-foreground">
       <div className="container max-w-5xl mx-auto px-4">
         <h2 className="text-center font-black text-4xl md:text-5xl lg:text-6xl mb-12 leading-tight">
           Charity{" "}
           <span className="bg-gradient-to-r from-green-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent animate-glow">
-            Initiative
+            Events
           </span>
         </h2>
 
-        <Carousel className="w-full">
-          <CarouselContent>
+        <div className="text-lg md:text-xl text-muted-foreground text-center mb-12">
+          <p>
+            If you wish to donate directly or learn more, feel free to reach out
+            via:
+          </p>
+          <p className="mt-2">
+            📩 <span className="font-medium">Facebook or Instagram</span>
+            <br />
+            📧 Email:{" "}
+            <a
+              href="mailto:jayrealestate98@gmail.com"
+              className="underline hover:text-primary"
+            >
+              jayrealestate98@gmail.com
+            </a>
+          </p>
+        </div>
+
+        <Carousel className="w-full relative overflow-hidden">
+          <CarouselContent className="px-0 sm:px-4">
+            {" "}
+            {/* optional padding for non-mobile */}
             {charityEvents.map((event, index) => (
               <CarouselItem key={index} className="p-4">
                 <div className="flex flex-col md:flex-row gap-6 items-center">
@@ -65,26 +85,10 @@ const CharityCarousel = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <div className="text-sm text-muted-foreground text-center mt-12">
-            <p>
-              If you wish to donate directly or learn more, feel free to reach
-              out via:
-            </p>
-            <p className="mt-2">
-              📩 <span className="font-medium">Facebook or Instagram</span>
-              <br />
-              📧 Email:{" "}
-              <a
-                href="mailto:jayrealestate98@gmail.com"
-                className="underline hover:text-primary"
-              >
-                jayrealestate98@gmail.com
-              </a>
-            </p>
-          </div>
 
-          <CarouselPrevious />
-          <CarouselNext />
+          {/* Position buttons absolutely so they don’t interfere with layout */}
+          <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 z-10" />
+          <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 z-10" />
         </Carousel>
       </div>
     </section>

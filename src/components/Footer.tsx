@@ -21,6 +21,7 @@ const Footer = () => {
     { name: "Transitions", href: "#transition" },
     { name: "Testimonials", href: "#testimonials" },
     { name: "FAQ", href: "#faq" },
+    { name: "Charity", href: "#charity" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -113,15 +114,15 @@ const Footer = () => {
               </h3>
               <div className="space-y-4">
                 <div className="flex items-center text-muted-foreground">
-                  <Mail className="w-5 h-5 mr-3 text-primary" />
+                  <Mail className="w-5 h-5 mr-3 text-green-400" />
                   <span>jayrealestate98@gmail.com</span>
                 </div>
                 <div className="flex items-center text-muted-foreground">
-                  <Facebook className="w-5 h-5 mr-3 text-primary" />
+                  <Facebook className="w-5 h-5 mr-3 text-green-400" />
                   <span>facebook.com/jayreservices/</span>
                 </div>
                 <div className="flex items-center text-muted-foreground">
-                  <Instagram className="w-5 h-5 mr-3 text-primary" />
+                  <Instagram className="w-5 h-5 mr-3 text-green-400" />
                   <span>instagram.com/jayrealestate98/</span>
                 </div>
               </div>

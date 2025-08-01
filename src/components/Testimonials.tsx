@@ -118,10 +118,10 @@ const Testimonials = () => {
             </div>
             <div className="text-center p-6 rounded-xl bg-primary/5 border border-primary/10">
               <div className="font-inter font-bold text-3xl md:text-4xl text-primary mb-2">
-                15+
+                100%
               </div>
               <div className="text-sm text-muted-foreground">
-                Industry Awards
+                Satisfaction Guarantee
               </div>
             </div>
             <div className="text-center p-6 rounded-xl bg-accent/5 border border-accent/10">

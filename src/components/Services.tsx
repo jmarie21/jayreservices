@@ -152,7 +152,7 @@ const Services = () => {
             <p className="text-white/80 mb-6 leading-relaxed">
               Let’s craft stunning visuals for your listings.
             </p>
-            <a href="mailto:jayrealestate98@gmail.com">
+            <a href="#contact">
               <Button
                 size="lg"
                 className="min-w-[200px] bg-gradient-to-r from-blue-800 via-blue-600 to-green-400 text-white hover:brightness-110 transition-all"

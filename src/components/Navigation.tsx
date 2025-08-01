@@ -19,8 +19,9 @@ const Navigation = () => {
   const navItems = [
     { name: "About", href: "#about" },
     { name: "Services", href: "#services" },
-    { name: "Portfolio", href: "#portfolio" },
     { name: "Testimonials", href: "#testimonials" },
+    { name: "FAQ", href: "#faq" },
+    { name: "Contact", href: "#contact" },
   ];
 
   return (
@@ -58,7 +59,7 @@ const Navigation = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
-            <a href="mailto:jayrealestate98@gmail.com">
+            <a href="#contact">
               <Button className="group bg-gradient-to-r from-blue-800 via-blue-600 to-green-400 text-white hover:brightness-110 transition-all">
                 Get Quote
               </Button>
@@ -93,7 +94,7 @@ const Navigation = () => {
                 </a>
               ))}
               <div className="px-4 pt-2">
-                <a href="mailto:jayrealestate98@gmail.com">
+                <a href="#contact">
                   <Button className="min-w-[200px] group bg-gradient-to-r from-blue-800 via-blue-600 to-green-400 text-white hover:brightness-110 transition-all">
                     <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
                     Get Quote

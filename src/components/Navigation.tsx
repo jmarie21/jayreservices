@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "./ui/button";
 import { Play, Menu, X } from "lucide-react";
+import logoWhite from "../assets/jayre.png";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,12 +35,11 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="w-8 h-8 md:w-10 md:h-10 rounded-lg bg-gradient-to-r from-blue-800 via-blue-600 to-green-400 flex items-center justify-center mr-3">
-              <Play className="w-4 h-4 md:w-6 md:h-6 text-background" />
-            </div>
-            <span className="font-inter font-bold text-xl md:text-2xl text-foreground">
-              Jay RE
-            </span>
+            <img
+              src={logoWhite}
+              alt="Jay RE Logo"
+              className="h-26 md:h-26 object-contain"
+            />
           </div>
 
           {/* Desktop Navigation */}

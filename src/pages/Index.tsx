@@ -1,4 +1,5 @@
 import About from "../components/About";
+import Charities from "../components/Charities";
 import Contact from "../components/Contact";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
@@ -7,6 +8,7 @@ import Navigation from "../components/Navigation";
 // import Portfolio from "../components/Portfolio";
 import Services from "../components/Services";
 import Testimonials from "../components/Testimonials";
+import Transitions from "../components/Transitions";
 
 const Index = () => {
   return (
@@ -16,8 +18,10 @@ const Index = () => {
       <About />
       <Services />
       {/* <Portfolio /> */}
+      <Transitions />
       <Testimonials />
       <FAQ />
+      <Charities />
       <Contact />
       <Footer />
     </div>

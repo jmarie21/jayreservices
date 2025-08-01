@@ -48,7 +48,7 @@ const Navigation = () => {
               <a
                 key={index}
                 href={item.href}
-                className="font-inter text-muted-foreground hover:text-primary transition-colors duration-300 relative group"
+                className="font-inter text-white/90 hover:text-primary transition-colors duration-300 relative group"
               >
                 {item.name}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />

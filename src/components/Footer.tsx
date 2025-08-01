@@ -1,4 +1,4 @@
-import { Instagram, Mail, Phone, MapPin, Facebook } from "lucide-react";
+import { Instagram, Mail, Facebook } from "lucide-react";
 import logoWhite from "../assets/jayre.png";
 
 const Footer = () => {

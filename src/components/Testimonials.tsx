@@ -50,8 +50,8 @@ const Testimonials = () => {
             </h2>
             <p className="font-inter text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               Don't just take our word for it. Here's what our clients have to
-              say about working with FrameCraft Studios and the results we've
-              achieved together.
+              say about working with Jay RE and the results we've achieved
+              together.
             </p>
           </div>
 

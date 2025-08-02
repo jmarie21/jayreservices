@@ -9,7 +9,7 @@ const faqs = [
   {
     question: "How much do you charge for your service?",
     answer:
-      "Our services are tailored to meet the specific needs of your videos. Feel free to email us at jayrealestate98@gmail.com or send us a message here.",
+      "Our services are tailored to meet the specific needs of your videos. Feel free to email us at jayrealestate98@gmail.com or send us a message on facebook or instagram",
   },
   {
     question: "How long is the turn around time for each videos?",

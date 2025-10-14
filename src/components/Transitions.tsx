@@ -31,12 +31,12 @@ const transitions = [
   },
   {
     title: "VIRTUAL STAGING AI",
-    url: "https://www.youtube.com/embed/79vg5WqKgYE?si=wGmOPqKrPPyhJTnv",
+    url: "https://www.youtube.com/embed/79vg5WqKgYE",
     id: "79vg5WqKgYE",
   },
   {
     title: "Painting Transition",
-    url: "https://www.youtube.com/embed/vCW4H7puU1c?si=AOrrjR5R8GmAHQ80",
+    url: "https://www.youtube.com/embed/vCW4H7puU1c",
     id: "vCW4H7puU1c",
   },
 ];

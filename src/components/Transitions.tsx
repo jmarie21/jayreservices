@@ -29,6 +29,16 @@ const transitions = [
     url: "https://www.youtube.com/embed/dyuRMbjDJas",
     id: "dyuRMbjDJas",
   },
+  {
+    title: "VIRTUAL STAGING AI",
+    url: "https://www.youtube.com/embed/79vg5WqKgYE?si=wGmOPqKrPPyhJTnv",
+    id: "79vg5WqKgYE",
+  },
+  {
+    title: "Painting Transition",
+    url: "https://www.youtube.com/embed/vCW4H7puU1c?si=AOrrjR5R8GmAHQ80",
+    id: "vCW4H7puU1c",
+  },
 ];
 
 const Transitions = () => {
@@ -49,7 +59,7 @@ const Transitions = () => {
           lighting changes to dynamic zooms.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {transitions.map(({ title, url, id }) => (
             <div key={title} className="space-y-3">
               <div className="aspect-video rounded-xl overflow-hidden shadow-lg">

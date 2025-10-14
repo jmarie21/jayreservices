@@ -35,7 +35,7 @@ const transitions = [
     id: "79vg5WqKgYE",
   },
   {
-    title: "Painting Transition",
+    title: "PAINTING TRANSITION",
     url: "https://www.youtube.com/embed/vCW4H7puU1c",
     id: "vCW4H7puU1c",
   },

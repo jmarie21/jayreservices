@@ -128,11 +128,7 @@ const Services = () => {
 
                   {/* Pushes the button to bottom */}
                   <div className="mt-auto pt-4">
-                    <a
-                      href={service.orderLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="#contact">
                       <Button
                         size="lg"
                         className="w-full bg-gradient-to-r from-blue-800 via-blue-600 to-green-400 text-white hover:brightness-110 transition-all"

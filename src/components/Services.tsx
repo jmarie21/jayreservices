@@ -140,13 +140,13 @@ const Services = () => {
           </div>
 
           {/* Category Buttons */}
-          <div className="flex justify-center gap-3 mb-8">
+          <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-8 px-2">
             {categories.map((cat) => (
               <Button
                 key={cat}
-                size="lg"
+                size="sm"
                 onClick={() => setSelectedCategory(cat)}
-                className={`px-6 py-3 rounded-full transition-all ${
+                className={`px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base rounded-full transition-all ${
                   selectedCategory === cat
                     ? "bg-gradient-to-r from-blue-800 via-blue-600 to-green-400 text-white"
                     : "bg-gray-800 text-white/80 hover:brightness-110"
@@ -223,20 +223,20 @@ const Services = () => {
                     className="bg-gray-800 border border-gray-700 rounded-2xl overflow-hidden shadow-lg transition-all animate-fade-in"
                     style={{ animationDelay: `${index * 0.1}s` }}
                   >
-                    <div className="grid md:grid-cols-2 gap-0">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
                       {/* Left: Text Content */}
-                      <div className="p-8 flex flex-col justify-center">
-                        <h3 className="text-3xl font-bold mb-6">
+                      <div className="p-5 sm:p-8 flex flex-col justify-center order-2 md:order-1">
+                        <h3 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">
                           {service.title}
                         </h3>
-                        <p className="text-lg text-white/80 leading-relaxed mb-8">
+                        <p className="text-base sm:text-lg text-white/80 leading-relaxed mb-6 sm:mb-8">
                           {service.description}
                         </p>
                         <div>
                           <a href="#contact">
                             <Button
                               size="lg"
-                              className="bg-gradient-to-r from-blue-800 via-blue-600 to-green-400 text-white hover:brightness-110 transition-all"
+                              className="w-full sm:w-auto bg-gradient-to-r from-blue-800 via-blue-600 to-green-400 text-white hover:brightness-110 transition-all"
                             >
                               Order Now
                             </Button>
@@ -245,15 +245,15 @@ const Services = () => {
                       </div>
 
                       {/* Right: Image */}
-                      <div className="aspect-video md:aspect-auto">
+                      <div className="aspect-video md:aspect-auto order-1 md:order-2">
                         {Array.isArray(service.imageUrl) ? (
-                          <div className="relative h-full min-h-[400px] md:min-h-[600px] bg-gray-900 flex items-center justify-center p-4">
+                          <div className="relative h-full min-h-[280px] sm:min-h-[400px] md:min-h-[600px] bg-gray-900 flex items-center justify-center p-2 sm:p-4">
                             {service.imageUrl.map((img, idx) => {
                               const positions = [
-                                { top: '5%', left: '5%', rotate: -8, width: '45%', height: '42%' },
-                                { top: '8%', left: '45%', rotate: 5, width: '48%', height: '45%' },
-                                { top: '48%', left: '10%', rotate: 3, width: '42%', height: '48%' },
-                                { top: '52%', left: '52%', rotate: -6, width: '45%', height: '43%' }
+                                { top: '5%', left: '3%', rotate: -8, width: '48%', height: '44%' },
+                                { top: '5%', left: '48%', rotate: 5, width: '48%', height: '44%' },
+                                { top: '50%', left: '3%', rotate: 3, width: '48%', height: '44%' },
+                                { top: '50%', left: '48%', rotate: -6, width: '48%', height: '44%' }
                               ];
                               return (
                                 <div
@@ -269,7 +269,7 @@ const Services = () => {
                                   }}
                                 >
                                   <img
-                                    className="w-full h-full object-cover rounded-sm shadow-2xl border-4 border-white"
+                                    className="w-full h-full object-cover rounded-sm shadow-2xl border-2 sm:border-4 border-white"
                                     src={img}
                                     alt={`${service.title} ${idx + 1}`}
                                   />
@@ -279,7 +279,7 @@ const Services = () => {
                           </div>
                         ) : (
                           <img
-                            className="w-full h-full object-cover min-h-[300px] md:min-h-[400px]"
+                            className="w-full h-full object-cover min-h-[250px] sm:min-h-[300px] md:min-h-[400px]"
                             src={service.imageUrl}
                             alt={service.title}
                           />
@@ -293,17 +293,17 @@ const Services = () => {
           </div>
 
           {/* CTA */}
-          <div className="max-w-4xl mx-auto p-8 rounded-2xl bg-gradient-to-r from-gray-900 to-green-900 border border-green-400/20 text-center">
-            <h3 className="font-bold text-2xl md:text-3xl mb-4">
+          <div className="max-w-4xl mx-auto p-5 sm:p-8 rounded-2xl bg-gradient-to-r from-gray-900 to-green-900 border border-green-400/20 text-center">
+            <h3 className="font-bold text-xl sm:text-2xl md:text-3xl mb-4">
               Ready to Start Your Project?
             </h3>
-            <p className="text-white/80 mb-6 leading-relaxed">
-              Let’s craft stunning visuals for your listings.
+            <p className="text-white/80 mb-6 leading-relaxed text-sm sm:text-base">
+              Let's craft stunning visuals for your listings.
             </p>
             <a href="#contact">
               <Button
                 size="lg"
-                className="min-w-[200px] bg-gradient-to-r from-blue-800 via-blue-600 to-green-400 text-white hover:brightness-110 transition-all"
+                className="w-full sm:w-auto sm:min-w-[200px] bg-gradient-to-r from-blue-800 via-blue-600 to-green-400 text-white hover:brightness-110 transition-all"
               >
                 Get Free Quote
               </Button>
